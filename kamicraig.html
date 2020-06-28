@@ -1,3 +1,95 @@
 <!doctype html>
 <html>
+<head>
+	
+	<meta charset="UTF-8">
+	<title>html3</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	
+	<style>
+		
+		.div1 {
+			font-family: 'Poppins', sans-serif;
+			border: 5px solid midnightblue;
+			background-color: snow;
+			text-align: center;
+			width: 100%;
+			height: 100%;
+		}
+		
+		#wowlookatthisheader {
+			background-color: lightslategray;
+			color:snow;
+			padding: 40px;
+		}
+		
+		body {
+			background-image: url("images/water.jpg");
+			background-repeat:repeat;
+		}
+		
+		table.center, th, td {
+			margin-left: auto;
+			margin-right: auto;
+			border: 3px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+			}
+		
+</style>
+</head>
+<body>
+<div class="div1">
+	
+	<h1 id="wowlookatthisheader">Kami Craig</h1>
+		<article>
+			<h2>Background Info</h2>
+			<p>Kameryn Louise "Kami" Craig was an American water polo player, playing the 2-meter/hole set position.  She is one of the most decorated water polo athletes ever, winning two Olympic gold medals in 2012 and 2016, and winning a silver medal in 2008, all with the US.  During her 4-year college career at USC, she won the Peter J. Cutino award twice, which is given to the top collegiate water polo player every year.  A rock-solid point defender and an absolute beast of an offensive set player, Craig's offensive process emitted a certain "gravity" effect on the oppostion - if the defenders positioned themselves too far away from her, Craig would have had too easy of a time taking a <b title="A pass thrown at the water directly in front of the player, allowing the receiver some time before fielding the pass" style="color: darkcyan"> wet pass</b> from one of her teammates and scoring.  This in turn created more space around the perimeter of the US women's (&#9792) National Water Polo Team's offense, allowing more fluid ball movement and more efficient shot opportunities.</p>
+			
+			<img src="images/kamicraigpic.jpg" alt="Kami Craig shooting the ball" width="375" height="250">
+	
+		<section>
+			<p>2-meter players who can draw unlimited ejections AND shoot backhand at will &#128525&#128525&#128525.</p>
+		</section>
+		</article>
+	
+		<section>
+			<h2>International Competition Medal Record</h2>
+			
+			<button onclick="displayresult()">Otherwise worded as...</button>
+
+			<script>
+			function displayresult() {
+				document.getElementById("otherheader").innerHTML = "How Much Ms. Kraig and Team USA Absolutley Destroyed Women's Water Polo"; 
+			}
+			</script>
+			<br><br>
+			
+				<table class="center">
+					<tr>
+						<th>Tournament</th>
+						<th>Medals (Years)</th>
+					</tr>
+					<tr>
+						<td>Olympic Games</td>
+						<td>2 Gold Medals (2012, 2016), 1 Silver Medal (2008)</td>
+					</tr>
+					<tr>
+						<td>World Championships</td>
+						<td>3 Gold Medals (2007, 2009, 2015)</td>
+					</tr>
+					<tr>
+						<td>Pan American Games</td>
+						<td>1 Gold Medal (2011)</td>
+					</tr>
+					<tr>
+						<td>FINA World Cup</td>
+						<td>2 Gold Medals (2010, 2014</td>
+					</tr>
+				</table>
+		</section>
+	<br>
+	
+	</div>
+</body>
 </html>
